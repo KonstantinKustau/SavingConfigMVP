@@ -21,7 +21,7 @@ public class BasePresenter<View extends MvpView> extends MvpPresenter<View> {
         }
     }
 
-    public void addDisposable(@NonNull final Disposable disposable) {
+    void addDisposable(@NonNull final Disposable disposable) {
         if (compositeDisposable == null || compositeDisposable.isDisposed()) {
             compositeDisposable = new CompositeDisposable();
         }

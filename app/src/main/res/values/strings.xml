@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SavingConfigMVP</string>
+    <string name="error_connection_internet">Error connecting to internet</string>
+    <string name="request_pet_cat">cat</string>
+    <string name="request_pet_dog">dog</string>
 </resources>
